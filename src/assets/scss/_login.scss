@@ -1,0 +1,115 @@
+
+// 登录模块
+.login-box{
+    position: absolute;
+    width: 880px;
+    height: 455px;
+    background:rgba(255,255,255,1);
+    box-shadow:0px 0px 13px 0px rgba(17,17,17,0.3);
+    left:0; right:0;margin: 0 auto;
+    top: 50%;
+    margin-top: -240px;
+    z-index: 100;
+  }
+  .login-box .login-left{
+    float: left;
+    width: 480px;
+  }
+  .login-box .login-left img{
+    width: 480px;
+  }
+  .login-right{
+    float: left;
+    width: 400px;
+    height: 100%;
+    padding: 30px 40px;
+    box-sizing: border-box;
+  }
+  .login-con .login-item .user,.login-con .login-item .password{
+    width:320px;
+  }
+  .login-con .login-item .captcha-box .captcha{
+    width: 178px;
+  }
+  input::-webkit-input-placeholder { /* WebKit browsers */ 
+    color: #999999; 
+    font-size:14px;
+  } 
+  input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */ 
+    color: #999999; 
+    font-size:14px;
+  } 
+  input::-moz-placeholder { /* Mozilla Firefox 19+ */ 
+    color: #999999; 
+    font-size:14px;
+  } 
+  input:-ms-input-placeholder { /* Internet Explorer 10+ */ 
+    color: #999999; 
+    font-size:14px;
+  } 
+  input{
+    border:1px solid #D7D8D9;
+    height:40px;
+    box-sizing: border-box;
+    padding: 0 10px;
+    background:rgba(255,255,255,1);
+    font-size: 14px;
+  }
+  input:focus{
+    border-color: #31A496;
+  }
+  .login-con .login-item .tip{
+    min-height: 32px;
+    line-height: 32px;
+    padding: 0 10px;
+    font-size: 14px;
+    color: #FF6464;
+  }
+  .login-con .login-item .tip .login-tip{
+    line-height: 18px;
+    margin:  8px 0;
+  }
+  .login-con .login-item .captcha-box{
+    display: flex;
+    justify-content: space-between;
+  }
+  .login-con .login-item .captcha-box img{
+    width: 124px;
+    height: 40px;
+  }
+  .submit{
+    width: 100%;
+    height: 40px;
+    background-color: #31A496;
+    outline: none;
+    border: 0;
+    color: #fff;
+    font-size:14px;
+    cursor: pointer;
+  }
+  .login-on{
+    margin-top: 20px;
+    text-align: right;
+  }
+  .login-on a{
+    line-height: 30px;
+    font-size: 14px;
+    color: #31A496;
+    margin-left: 20px;
+  }
+  .tel-captcha{
+    width: 124px;
+    height: 40px;
+    outline: none;
+    border: 0;
+    background-color: #B2B2B2;
+    font-size: 14px;
+    color: #fff;
+  }
+  .tel-captcha.active{
+    cursor: pointer;
+    background:rgba(255,255,255,1);
+    border:1px solid #31A496;
+    color: #31A496;
+  }
+  
